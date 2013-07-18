@@ -4,8 +4,8 @@
 Vagrant::Config.run do |config|
   # Set box configuration
   config.vm.box = "mag_dev"
-  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
-
+  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+  config.vm.host_name = "ubuntu.dev"
   # Assign this VM to a host-only network IP, allowing you to access it via the IP.
   config.vm.network :hostonly, "192.168.56.2"
   
@@ -22,16 +22,8 @@ Vagrant::Config.run do |config|
       "mysql" => {
         "server_root_password" => "root",
         "server_repl_password" => "root",
-        "server_debian_password" => "root"
-      },
-      "oh_my_zsh" => {
-        :users => [
-          {
-            :login => 'vagrant',
-            :theme => 'blinks',
-            :plugins => ['git', 'gem']
-          }
-        ]
+        "server_debian_password" => "root",
+        "bind_address" => "127.0.0.1"
       }
     })
   end
