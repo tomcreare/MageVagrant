@@ -1,5 +1,3 @@
 sql/
-import_dbs.txt
 .vagrant
-.vagrant
-.vagrant
+import_dbs
