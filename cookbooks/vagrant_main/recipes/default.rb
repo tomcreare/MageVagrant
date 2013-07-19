@@ -11,7 +11,7 @@ include_recipe "mysql::server"
 include_recipe "php"
 include_recipe "ruby"
 include_recipe "apache2::mod_php5"
-include_recipe "phpunit"
+#include_recipe "phpunit"
 #include_recipe "magento-taf"
 include_recipe "database::mysql"
 
