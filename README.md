@@ -16,7 +16,7 @@ You will need the following software installed:
 
 Getting MageVagrant up and running is as easy cloning the repo 
 
-````git clone https://github.com/ucommerzapps/MageVagrant.git dev_box````
+````git clone https://github.com/tomcreare/MageVagrant.git dev_box````
 
 And running the Vagrant box
 
@@ -34,4 +34,4 @@ vagrant ssh
 
 This will setup a full LAMP development environment
 
-You'll need to know how to setup basic virtual hosts in apache and edit your /etc/hosts to point to your 
+You'll need to know how to setup basic virtual hosts in apache and edit your /etc/hosts to point to your wanted domain
