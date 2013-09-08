@@ -1,7 +1,7 @@
 MageVagrant
 ===============
 
-MageVagrant is a complete LAMP development environment for Magento. 
+MageVagrant is a complete LAMP development environment for Magento, forked from https://github.com/ucommerzapps/MageVagrant 
 
 
 ## Requirements
